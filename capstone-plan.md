@@ -4,18 +4,18 @@ THis Api allows users to to search movie tiltes with cover art associated with t
 
 Planned Backend
 
- Express + Prisma + RDS/DynamoDB
+ Express DynamoDB
 
 
 List each route, its HTTP method, and what it does.
 Example:
-GET /posts → return all movie titles
+GET /movies → return all movie titles
 
-POST /posts → create a new movie title / add title to list
+POST /movies → create a new movie title / add title to list
 
-PUT /posts/:id → edit existing movie title
+PUT /movies/:id → edit existing movie title
 
-DELETE /posts/:id → delete Unneeded movie title
+DELETE /movies/:id → delete Unneeded movie title
 
 
 What pages will your frontend include (one page minimum)?
@@ -34,9 +34,9 @@ users will be requierd to login / hosted by jwt
 
 Deployment Plan
 
-The frontend will be hosted by aws s3 + cloudfront / vercel
+The frontend will be hosted by  vercel
 
-the backend will use render / aws lambda 
+the backend will use render 
 
  the data base will be managed in aws/ Dynamodb
 
